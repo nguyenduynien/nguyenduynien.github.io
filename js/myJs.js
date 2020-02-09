@@ -109,12 +109,12 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Send",
+        cancelButtonText: "Em ngại lắm!",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Em ngại lắm!'
+        confirmButtonText: 'Send'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
