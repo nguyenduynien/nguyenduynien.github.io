@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Vì Anh: Đẹp trai, tài năng, tư duy đỉnh cao,có tố chất lãnh đạo,và nhiều phẩm chất quý khác. ♥";
+    var text = " Vì Anh quá perfect ♥";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
