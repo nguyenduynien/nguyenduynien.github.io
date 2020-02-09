@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Tối nay Anh sẽ qua nhà Em. Còn giờ thì inbox cho Anh nào.",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/messages/t/13062026.ss';
+                    window.location = ' https://m.me/13062026.ss';
                   }
             })
         }
