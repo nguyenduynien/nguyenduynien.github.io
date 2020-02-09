@@ -73,20 +73,9 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Vì Anh: Đẹp trai, tài năng, tư duy đỉnh cao,có tố chất lãnh đạo,và nhiều phẩm chất quý khác. ♥";
+    var text = "";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
-    var count = textVal.length;
-    if (count > 0) {
-        for (let i = 1; i <= count; i++) {
-            n = n + a[i];
-            if (i == text.length + 1) {
-                $('#txtReason').val("");
-                n = "";
-                break;
-            }
-        }
-    }
     $('#txtReason').val(n);
     setTimeout("textGenerate()", 1);
 }
@@ -109,12 +98,12 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Send",
+        cancelButtonText: "Em ngại lắm!",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Em ngại lắm!'
+        confirmButtonText: 'Send'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
