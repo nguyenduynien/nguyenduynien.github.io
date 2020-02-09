@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Chào mừng Em đã đến với thế giới của Anh!',
+        title: 'Chào mừng Em đến với thế giới của Anh!',
         text: 'Click để tiếp tục.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
