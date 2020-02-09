@@ -19,7 +19,7 @@ function firstQuestion(){
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/iputBg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Vì Anh quá perfect ♥";
+    var text = " Vì Anh quá perfect ♥  ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -101,7 +101,7 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/iputBg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy.gif")
@@ -120,7 +120,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Em đồng ý!',
-                background: '#fff url("img/iput-bg.jpg")',
+                background: '#fff url("img/iputBg.jpg")',
                 title: 'Anh biết mà, yêu Em 3000 ♥',
                 text: "Tối nay Anh sẽ qua nhà Em. Còn giờ thì inbox cho Anh nào.",
                 confirmButtonColor: '#83d0c9',
