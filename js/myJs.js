@@ -119,10 +119,10 @@ $('#yes').click(function() {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Em đồng ý!',
+                confirmButtonText: 'Go to Messenger!',
                 background: '#fff url("img/iputBg.jpg")',
-                title: 'Anh biết mà, yêu Em 3000 ♥',
-                text: "Tối nay Anh sẽ qua nhà Em. Còn giờ thì inbox cho Anh nào.",
+                title: 'Yêu Em 3000 ♥',
+                text: "Giờ thì inbox cho Anh nào.",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = ' https://m.me/13062026.ss';
